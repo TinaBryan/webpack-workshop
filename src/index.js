@@ -1,1 +1,5 @@
-console.info("Hello, webpack.");
+import loadDropdown from "./loadDropdown";
+
+console.info("Hello, webpack-dev-server.");
+loadDropdown();
+
